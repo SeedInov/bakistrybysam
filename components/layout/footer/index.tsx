@@ -1,13 +1,14 @@
 import { Button } from 'components/button';
-import AmericanExpress from 'public/icons/payments/americanexp';
-import Discover from 'public/icons/payments/discover';
+import Link from 'next/link';
+// import AmericanExpress from 'public/icons/payments/americanexp';
+// import Discover from 'public/icons/payments/discover';
 import Mastercard from 'public/icons/payments/mastercard';
-import Paypal from 'public/icons/payments/paypal';
-import Visa from 'public/icons/payments/visa';
+// import Paypal from 'public/icons/payments/paypal';
+// import Visa from 'public/icons/payments/visa';
 import SendNewsletterBtn from 'public/icons/sendnews';
 import Facebook from 'public/icons/social/facebook';
 import Instagram from 'public/icons/social/instagram';
-import Tiktok from 'public/icons/social/tiktok';
+// import Tiktok from 'public/icons/social/tiktok';
 import MainLogo from 'public/logo/logo';
 
 export default function Footer() {
@@ -15,11 +16,7 @@ export default function Footer() {
     <div className="pt-[1.87rem] text-center sm:pt-0 sm:text-left">
       <MainLogo width="93px" height="88px" className="mx-auto sm:mx-0" />
       <div className="mt-2.5 leading-tight">
-        <p>12190 Beahan Street</p>
-        <p>59025</p>
-        <p>West Virginia</p>
-        <p>(979) 541-3809</p>
-        <p>info@hello.com</p>
+        <p>Karachi, Pakistan</p>
       </div>
     </div>
   );
@@ -46,19 +43,18 @@ export default function Footer() {
 
   const PaymentLogos = () => (
     <div className="flex flex-wrap items-center justify-center gap-5">
-      <Visa />
       <Mastercard />
-      <AmericanExpress />
-      <Discover />
-      <Paypal />
     </div>
   );
 
   const SocialIcons = () => (
     <div className="flex items-center gap-5 pt-[1.8rem]">
-      <Facebook className="max-w-[1.8rem]" />
-      <Instagram className="max-w-[1.8rem]" />
-      <Tiktok className="max-w-[1.8rem]" />
+      <Link href="https://www.facebook.com/profile.php?id=61557953070344&ref=xav_ig_profile_web">
+        <Facebook className="max-w-[1.8rem]" />
+      </Link>
+      <Link href="https://www.instagram.com/bakistrybysam/">
+        <Instagram className="max-w-[1.8rem]" />
+      </Link>
     </div>
   );
 

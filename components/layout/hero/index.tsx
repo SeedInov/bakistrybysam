@@ -2,7 +2,6 @@ import { Button } from 'components/button';
 import Image from 'next/image';
 import Link from 'next/link';
 import Arrow from 'public/arrow/arrow';
-import { Github } from 'public/icons/github';
 import Header from '../header';
 
 const HeroContent = () => {
@@ -19,17 +18,11 @@ const HeroContent = () => {
         />
         <div className="flex max-w-2xl flex-col items-center  md:items-start">
           <h2 className="text-center text-3xl font-semibold leading-tight md:text-left lg:text-5xl">
-            Free Next.Js template with <span className="whitespace-nowrap">Headless Shopify❤️</span>
+            🧁sweet moments, freshly baked with love🫶🏻
           </h2>
           <div className="mt-8 flex flex-col gap-2.5 min-[380px]:flex-row">
             <Link href="/products">
               <Button>Go to products</Button>
-            </Link>
-            <Link href="https://github.com/stefanogali/panini-cake" target="_blank">
-              <Button className="flex items-center gap-2">
-                <Github className="fill-white" />
-                Get template
-              </Button>
             </Link>
           </div>
         </div>

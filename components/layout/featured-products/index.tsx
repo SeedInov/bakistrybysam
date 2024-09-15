@@ -13,8 +13,7 @@ export default function Featuredproducts({ products }: { products: Product[] }) 
             Featured Products
           </h2>
           <h3 className="mx-auto max-w-3xl text-center text-header-3 leading-none">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            🎂 Cakes | 🍪 Cookies | 🧁 Cupcakes | 🍫 Brownies
           </h3>
         </div>
         <CustomCarousel className="mt-12 pl-2.5">

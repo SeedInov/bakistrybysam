@@ -3,7 +3,6 @@ import Grid from 'components/grid';
 import { getMenu } from 'lib/shopify';
 import { Menu } from 'lib/shopify/types';
 import Link from 'next/link';
-import MainLogo from 'public/logo/logo';
 
 export default async function Header({ isInternalPage }: { isInternalPage?: boolean }) {
   // Get menu from shopify
@@ -18,7 +17,7 @@ export default async function Header({ isInternalPage }: { isInternalPage?: bool
           isInternalPage && 'mb-[70px] bg-light-pink'
         )}
       >
-        <Link href="/">
+        {/* <Link href="/">
           <MainLogo
             width="10rem"
             height="9.3rem"
@@ -28,7 +27,7 @@ export default async function Header({ isInternalPage }: { isInternalPage?: bool
               isInternalPage && 'my-1 max-h-32 max-w-32'
             )}
           />
-        </Link>
+        </Link> */}
         {menu.length ? (
           <Grid
             className={clsx(

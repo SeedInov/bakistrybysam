@@ -47,10 +47,7 @@ export default async function ContactPage() {
         className="mt-2.5"
       ></iframe>
       <h3 className="mt-2.5 text-header-3 font-semibold">Our location</h3>
-      <p>12190 Beahan Street 59025</p>
-      <p>West Virginia</p>
-      <p>(979) 541-3809</p>
-      <p>info@hello.com</p>
+      <p>Karachi, Pakistan</p>
     </div>
   );
 

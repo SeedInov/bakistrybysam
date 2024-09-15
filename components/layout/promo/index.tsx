@@ -14,19 +14,19 @@ export default function Promo() {
         <Grid className="flex flex-col">
           <Grid.Item className="mb-5 flex items-center">
             <Egg className="mr-2.5 w-10" />
-            Pretium fusce id velit ut tortor
+            Premium quality with every bite
           </Grid.Item>
           <Grid.Item className="mb-5 flex items-center">
-            <Van className=" mr-2.5 w-10" />
-            Viverra ipsum nunc aliquet bibendum enim facilisis
+            <Van className="mr-2.5 w-10" />
+            Light and delightful textures
           </Grid.Item>
           <Grid.Item className="mb-5 flex items-center">
-            <Cake className=" mr-2.5 w-10" />
-            Vestibulum lorem sed risus ultricies tristique nulla aliquet enim
+            <Cake className="mr-2.5 w-10" />
+            Beautifully presented, irresistibly delicious
           </Grid.Item>
-          <Grid.Item className="flex items-center ">
+          <Grid.Item className="flex items-center">
             <PanCake className="mr-2.5 w-10" />
-            Lobortis mattis aliquam
+            Made with love and passion
           </Grid.Item>
         </Grid>
         <Button className="mt-7">Find out more</Button>
